@@ -1,0 +1,45 @@
+.box{
+	display:inline-block;
+	border:solid #999;
+	background:#eee;
+	position:relative;
+	top:0px; left:0px;
+	padding:20px;
+}
+/*定义左浮动窗口*/
+#left{
+	border:solid #999;
+	background:#eee;
+	width:200px;
+	float:left;
+}
+/*定义右浮动窗口*/
+#right{
+	border:solid #999;
+	background:#eee;
+	width:120px;
+	float:right;
+}
+/*定义主内容格式*/
+#center{
+	border:solid #999;
+	background:#eee;
+	height:auto;
+	width:auto;
+	margin-left:220px;
+	margin-right:140px;
+}
+#teamname{
+	display:inline-block;
+	font:bolder;
+	color:red;
+	float:right;
+	margin:20px 10px 20px 10px;
+}
+#pic{
+	display:inline-block;
+	border:solid #999;
+	background:#eee;
+	width:80px; height:80px;
+	margin:10px 15px 10px 15px;
+}
